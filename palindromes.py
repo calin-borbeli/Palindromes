@@ -1,6 +1,7 @@
 text = input("Enter text: ")
 text = text.replace(" ", "")
 
+# First version
 if text:
     text = text.lower()
     l = len(text) - 1
@@ -15,5 +16,11 @@ if text:
     else:
         print("It's not a palindrome")
 
+else:
+    print("It's not a palindrome")
+
+# Second version
+if len(text) > 1 and text.lower() == text[::-1].lower():
+    print("It's a palindrome")
 else:
     print("It's not a palindrome")
