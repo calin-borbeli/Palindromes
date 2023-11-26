@@ -1,4 +1,4 @@
-# Palindromes-Python-Essentials-2-Lab
+# Palindromes
 
 A palindrome is a word or phrase which looks the same when read forward and backward. For example, "kayak" is a palindrome, while "loyal" is not.
 
